@@ -1,0 +1,8 @@
+.membership-plan .mplan-detail ul li h2 {
+    font-size: 14px!important;
+}
+.membership-plan .mplan-footer{
+    display: flex;
+    align-items: center;
+}
+

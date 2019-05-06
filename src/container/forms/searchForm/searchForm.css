@@ -1,0 +1,36 @@
+.search-list-group .list-group-item:hover{
+    background: #f6f6f6;
+}
+.search-list-group .list-group-item:hover .search-result-title{
+    font-weight: 600;
+    color: red;
+    text-decoration: none;
+}
+.search-result-item {
+    display: flex;
+    align-items: center;
+}
+.search-result-item img {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+}
+.search-result-item .search-result-title{
+    margin-left: 5px;
+    text-transform: capitalize;
+    font-size: 14px;
+}
+
+.search-form ul.list-group {
+    max-height: 300px;
+    overflow-y: overlay;
+}
+
+.search-input{
+    position: relative;
+}
+.search-input .fa-spinner{
+    position: absolute;
+    right: 5px;
+    top: 30%;
+}

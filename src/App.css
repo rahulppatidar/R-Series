@@ -1,0 +1,189 @@
+.rp-shadow-box{
+    -webkit-border-radius: 10px 10px 10px 10px;
+    border-radius: 10px 10px 10px 10px;
+    padding: 30px;
+    background: #fff;  
+    -webkit-box-shadow: 0 5px 25px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 5px 25px 0 rgba(0,0,0,0.2);
+  }
+.main-wrapper {
+  padding-top: 115px;
+  padding-bottom: 50px;
+  background: #ffffffd1;
+    box-shadow: 0 5px 25px 0px rgba(0,0,0,.1);
+}
+
+/* Addvertisment */
+.aid-block{
+  margin-top:90px;
+  
+}
+.aid{
+  background-color: #ffb6c1e3;
+  min-height: 200px;
+  margin: 10px auto;
+  display: flex;
+  justify-content: center; 
+}
+
+/*play Icon on Image*/
+
+.rp-play-icon{
+  position: relative;
+}
+.rp-play-icon:before{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+  content: "\F144";
+  font-family: Font Awesome\ 5 Free;
+  font-size: 60px;
+  color: #fff;
+  opacity: 0;
+  text-shadow: 0 0 30px rgba(0,0,0,.5);
+}
+.rp-play-icon:hover:before{
+  color: #eeeeee;
+  opacity: .8;
+}
+
+/*scale on hover*/
+.rp-scale{
+  -webkit-transition: transform .25s cubic-bezier(.33,.04,.63,.93);
+    -moz-transition: transform .25s cubic-bezier(.33,.04,.63,.93);
+    -o-transition: transform .25s cubic-bezier(.33,.04,.63,.93);
+    transition: transform .25s cubic-bezier(.33,.04,.63,.93);
+}
+.rp-scale:hover{
+  transform: scale3d(1.05,1.05,1.05) translate3d(0,0,0) perspective(500px);
+}
+
+/*border round*/
+.rp-round{
+  -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -o-border-radius: 5px;
+    border-radius: 5px;
+}
+
+/*spineer*/
+i.fas.fa-spinner {
+  animation: fa-spin 2s infinite linear;
+}
+
+/*Nav Bottom*/
+.navbar-bottom{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  left: 0;
+  right: 0;
+  background: #f2f2f2;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 10px 0px;
+}
+
+.navbar-bottom a{
+  color: #adb5bd;
+  text-decoration: none;
+  outline: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+.navbar-bottom a:hover{
+  color:#f783ac;
+  text-decoration: none;
+}
+
+/*input field help-block*/
+span.help-block {
+  font-size: 12px;
+}
+
+/*input field and button*/
+input[type=button], input[type=submit], input[type=reset],button  {
+  /* background-color: #56baed; */
+  border: none;
+  color: white;
+  padding: 15px 80px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 13px;
+  -webkit-box-shadow: 0 10px 30px 0 rgba(95,186,233,0.4);
+  box-shadow: 0 10px 30px 0 rgba(95,186,233,0.4);
+  -webkit-border-radius: 5px 5px 5px 5px;
+  border-radius: 5px 5px 5px 5px;
+  margin: 5px 20px 40px 20px;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+input[type=button]:hover, input[type=submit]:hover, input[type=reset]:hover,button:hover  {
+  /* background-color: #39ace7; */
+  outline: none;
+}
+
+input[type=button]:active, input[type=submit]:active, input[type=reset]:active,button:active  {
+  -moz-transform: scale(0.95);
+  -webkit-transform: scale(0.95);
+  -o-transform: scale(0.95);
+  -ms-transform: scale(0.95);
+  transform: scale(0.95);
+  outline: none;
+}
+
+
+input[type=text], input[type=password], input[type=email]   {
+  background-color: #f6f6f6;
+  border: none;
+  color: #0d0d0d;
+  padding: 15px 15px; 
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 5px;
+  border: 2px solid #f6f6f6;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  -webkit-border-radius: 5px 5px 5px 5px;
+  border-radius: 5px 5px 5px 5px;
+}
+
+input[type=text]:focus, input[type=password]:focus, input[type=email]:focus {
+  background-color: #fff;
+  border-bottom: 2px solid #5fbae9;
+}
+
+input[type=text]:placeholder, input[type=password]:placeholder, input[type=email]:placeholder {
+  color: #cccccc;
+}
+
+/*Truncate in single line*/
+.rp-truncate-single, .rp-truncate-single>*{
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+
+@media(max-width:767px){
+  .main-wrapper {
+    padding-top: 50px;
+  }
+}

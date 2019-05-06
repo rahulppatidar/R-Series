@@ -1,0 +1,39 @@
+.index_av__background__1Lhbu {
+    width: 100%!important;
+    position: fixed!important;
+    left:0!important;
+    right: 0!important;
+    z-index: 9!important;
+}
+
+.index_av__background__1Lhbu .index_av__container__1_bPF {
+    width: 100%!important;
+}
+i.fa.fa-list-ol,i.fab.fa-react {
+    display: none;
+}
+@media(max-width:1200px){
+    .index_progress__container__F2_Gy {
+        height: auto!important;
+        width: 100%!important;
+        max-width: 100%!important;       
+        left: 0!important;
+        top: 7px!important;
+    }
+    .index_av__playback__2jJDz {
+        position: absolute!important;        
+        height: auto!important;      
+        bottom: 8px!important;
+    }
+    .index_media__toggles__2kd3l {      
+        top: auto!important;      
+        height: auto!important;
+        bottom: 8px!important;
+    }
+}
+
+@media(max-width:767px){
+    .index_av__background__1Lhbu { 
+        bottom: 54px!important;
+    }
+}

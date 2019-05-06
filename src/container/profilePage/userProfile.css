@@ -1,0 +1,29 @@
+.user-profile {
+    padding: 20px 5px;
+}
+.user-profile .profile-image {    
+    position: relative;
+}
+.user-profile .profile-image:hover .profile-image-update-box{
+    display: block;
+} 
+.user-profile .profile-image .profile-image-update-box{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    color: #fff;
+    background: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,1));
+    width: 100%;
+    display: none;
+}
+
+.user-profile  .settings .card-title a {
+    color: #333;
+    font-size: 16px;
+}
+.user-profile .settings .card-title a:hover{
+    text-decoration: none;
+    color: #dc3545;
+}
